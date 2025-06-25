@@ -3,11 +3,11 @@ import image from '../assets/image.jpg'
 
 const Home = () => {
     return (
-        <div id='home' className='h-[100vh] w-full p-3 flex flex-row'>
+        <div id='home' className='h-[100vh] w-full p-3 flex flex-row '>
 
             <div className='w-full md:w-3/4 h-full p-3 flex flex-col justify-center '>
-                <h1 className='text-4xl dark:text-white font-bold mt-20'><span className='animate__animated animate__fadeInLeft animate__delay-1s animate__slow'>Hello,</span>je suis Jaudel Tiogning</h1>
-                <p className=' mt-2 text-blue-400 text-3xl font-bold'>
+                <h1 className='md:text-4xl text-3xl dark:text-white font-bold mt-20'><span className='animate__animated animate__fadeInLeft animate__delay-1s animate__slow'>Hello,</span>je suis Jaudel Tiogning</h1>
+                <p className=' mt-2 text-blue-400 md:text-3xl text-2xl font-bold'>
                     <span className='animate__animated animate__fadeInLeft animate__delay-0.2s animate__slow animate__infinite'>D</span>
                     <span className='animate__animated animate__fadeInLeft animate__delay-0.4s animate__slow animate__infinite'>é</span>
                     <span className='animate__animated animate__fadeInLeft animate__delay-0.6s animate__slow animate__infinite'>v</span>
@@ -33,7 +33,7 @@ const Home = () => {
                 <p className='dark:text-white mt-4  md:text-2xl text-1.5xl '>
                     Passionné par la création d’applications modernes et performantes, je transforme les idées en solutions digitales concrètes. Découvrez mes projets et compétences ici !
                 </p>
-                <div>
+                <div className='flex flex-col md:flex-row md:mt-10'>
                     <button className='bg-blue-400 text-gray-800 px-4 py-2 mt-10 rounded-lg hover:bg-transparent hover:text-white hover:border-blue-400 hover:border-2 transition duration-300 ease-in-out'>
                         <a href="#contact">
                             Me contacter

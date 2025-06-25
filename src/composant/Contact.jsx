@@ -18,7 +18,7 @@ const Contact = () => {
   <div className='flex flex-col md:flex-row gap-6'>
 
     {/* Formulaire de contact */}
-    <div className='w-full md:w-[50%] dark:bg-slate-800 rounded-lg p-5 shadow-md'>
+    <div className='w-full md:w-[50%] bg-slate-800 rounded-lg p-5 shadow-md'>
       <h3 className='text-2xl font-semibold text-blue-400 mb-6 text-center'>Laissez un message</h3>
       <form className='space-y-4' action="https://formspree.io/f/xpwroroy" method="POST">
         <div>
@@ -32,7 +32,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label htmlFor="message" className='block mb-1 dark:text-white'>Message :</label>
+          <label htmlFor="message" className='block mb-1 text-white'>Message :</label>
           <textarea
             id="message"
             name="message"
@@ -40,7 +40,7 @@ const Contact = () => {
             className='w-full h-28 rounded px-3 py-2 outline-none  text-black resize-none'
           ></textarea>
         </div>
-        <button className='w-full bg-blue-600 dark:text-white font-semibold py-2 rounded hover:bg-blue-700 transition'>
+        <button className='w-full bg-blue-600 text-white font-semibold py-2 rounded hover:bg-blue-700 transition'>
           Envoyer
         </button>
       </form>
@@ -49,11 +49,11 @@ const Contact = () => {
     {/* Infos de contact */}
     <div className='w-full md:w-[50%] rounded-lg p-5 shadow-md mt-10'>
       <h3 className='text-2xl font-semibold text-blue-400 mb-6 text-center'>Contactez-moi</h3>
-      <p className='dark:text-white mb-6 leading-relaxed'>
+      <p className='text-white mb-6 leading-relaxed'>
   Vous avez une question, une proposition ou simplement envie d’échanger ? N’hésitez pas à me contacter par e-mail, sur les réseaux sociaux ou directement par téléphone via les liens ci-dessous.
 </p>
 
-      <div className=" w-full flex flex-wrap items-center gap-5 dark:text-white text-3xl justify-center   md:justify-start">
+      <div className=" w-full flex flex-wrap items-center gap-5 text-white text-3xl justify-center   md:justify-start">
         <a href="https://github.com/MTJM-coder" target="_blank" rel="noopener noreferrer">
           <Github className="hover:text-blue-400 cursor-pointer" />
         </a>

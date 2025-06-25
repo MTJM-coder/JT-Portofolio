@@ -16,14 +16,14 @@ import SkillCircle from './cicleProgressBar';
 
 const Skills = () => {
     return (
-        <div id='skills' className='p-10'>
+        <div className='p-5 md:p-10'>
             <h2 className='font-bold text-3xl text-blue-400 mb-2'>Com<span className='border-b-2 pb-3'>peten</span>ces</h2>
             <div className='flex flex-col md:flex-row py-10'>
-                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[30%] md:mx-5  dark:bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
-                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='dark:text-white'>01.</span>Web frontend</h2>
+                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[30%] md:mx-5  bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
+                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='text-white'>01.</span>Web frontend</h2>
                     <ul className='list-inside mt-2'>
                         <li className='text-sm'>
-                            <div className="flex justify-between text-sm dark:text-white mb-1">
+                            <div className="flex justify-between text-sm text-white mb-1">
                                 <span><img src={imageHtml} alt="HTML5" className="inline-block w-5 h-4 rounded-full mr-1" />HTML5</span>
                                 <span>98%</span>
                             </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                             </div>
                         </li>
                         <li className='text-sm'>
-                            <div className='flex justify-between text-sm dark:text-white mb-1'>
+                            <div className='flex justify-between text-sm text-white mb-1'>
                                 <span><img src={imageCss} alt="CSS3" className="inline-block w-5 h-4 rounded-full mr-1" />CSS3</span>
                                 <span>70%</span>
                             </div>
@@ -41,7 +41,7 @@ const Skills = () => {
                             </div>
                         </li>
                         <li className='text-sm'>
-                            <div className="flex justify-between text-sm dark:text-white mb-1">
+                            <div className="flex justify-between text-sm text-white mb-1">
                                 <span><img src={imageJs} alt="JavaScript" className="inline-block w-5 h-4 rounded-full mr-1" />JavaScript</span>
                                 <span>75%</span>
                             </div>
@@ -50,7 +50,7 @@ const Skills = () => {
                             </div>
                         </li>
                         <li className='text-sm'>
-                            <div className="flex justify-between text-sm dark:text-white mb-1">
+                            <div className="flex justify-between text-sm text-white mb-1">
                                 <span><img src={imageReact} alt="React" className="inline-block w-5 h-4 rounded-full mr-1" />React</span>
                                 <span>70%</span>
                             </div>
@@ -59,7 +59,7 @@ const Skills = () => {
                             </div>
                         </li>
                         <li className='text-sm'>
-                            <div className="flex justify-between text-sm dark:text-white mb-1">
+                            <div className="flex justify-between text-sm text-white mb-1">
                                 <span><img src={imageTailwind} alt="Tailwind CSS" className="inline-block w-5 h-4 rounded-full mr-1" />Tailwind CSS</span>
                                 <span>90%</span>
                             </div>
@@ -68,7 +68,7 @@ const Skills = () => {
                             </div>
                         </li>
                         <li className='text-sm'>
-                            <div className="flex justify-between text-sm dark:text-white mb-1">
+                            <div className="flex justify-between text-sm text-white mb-1">
                                 <span><img src={imageBootstrap} alt="Bootstrap" className="inline-block w-5 h-4 rounded-full mr-1" />Bootstrap</span>
                                 <span>85%</span>
                             </div>
@@ -79,8 +79,8 @@ const Skills = () => {
 
                     </ul>
                 </div>
-                <div className='my-5 w-full h-max hover:scale-110 hover:border-blue-400 hover:border-2  shadow-white md:w-[30%] md:mx-5  dark:bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
-                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='dark:text-white'>02.</span>Web backend</h2>
+                <div className='my-5 w-full h-max hover:scale-110 hover:border-blue-400 hover:border-2  shadow-white md:w-[30%] md:mx-5  bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
+                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='text-white'>02.</span>Web backend</h2>
                     <ul className='mt-2'>
                         <li className='text-sm flex-row mb-10'>
                             <span >
@@ -111,8 +111,8 @@ const Skills = () => {
                     </ul>
                 </div>
 
-                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[32%] md:mx-5 sm:mr-10 h-[30vh] dark:bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
-                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='dark:text-white'>03.</span>Programmation generale</h2>
+                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[32%] md:mx-5 sm:mr-10 h-[30vh] bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
+                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='text-white'>03.</span>Programmation generale</h2>
                     <ul className='list-inside mt-2 space-y-1'>
                         <li className='text-sm py-1'>➤ Python</li>
                         <li className='text-sm py-1'>➤ C</li>
@@ -121,8 +121,8 @@ const Skills = () => {
                     </ul>
                 </div>
 
-                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[32%] md:mx-5 sm:mr-10 dark:bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
-                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='dark:text-white'>04.</span> Modélisation & Outils</h2>
+                <div className='h-max my-5 w-full hover:scale-110 hover:border-blue-400 hover:border-2 shadow-white md:w-[32%] md:mx-5 sm:mr-10 bg-slate-800 rounded justify-center items-center lg:text-2xl font-bold p-5 '>
+                    <h2 className='text-xl font-bold text-center text-blue-400'><span className='text-white'>04.</span> Modélisation & Outils</h2>
                     <ul className='list-inside mt-2 space-y-1'>
                         <li className='text-sm py-1'>➤ UML</li>
                         <li className='text-sm py-1'>➤ Merise</li>
